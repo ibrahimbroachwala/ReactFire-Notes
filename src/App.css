@@ -1,0 +1,61 @@
+html{
+  height: 100%;
+}
+
+body {
+  width: 100%;
+  min-height:100%;
+  background: #eceff1;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+* {
+  height: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+
+
+.notesWrapper {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  height: 100%;
+}
+
+.notesHeader {
+  display: block;
+  height: 90px;
+  font-size: 1.2em;
+  color: #fff;
+  padding:20px 0px 20px 20px;
+  margin-bottom: 6px;
+  background-color: #455a64;
+  display: block;
+}
+
+.notesBody {
+  padding-top: 24px;
+  display: flex;
+  flex: 1 1 85%;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  align-content: flex-start;
+  overflow: auto;
+}
+
+.React {
+  color: #29b6f6;
+}
+.Fire {
+  color: #ffca28;
+}
+.notesFooter {
+  margin-bottom: 50px;
+  display: flex;
+  flex: 1 1 10%;
+}
